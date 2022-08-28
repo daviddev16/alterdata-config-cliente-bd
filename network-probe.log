@@ -1,0 +1,38 @@
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - NetworkProbe 1.0
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - CommandLine loaded
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - Loading NetworkConfiguration
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - ~~~~~~~~~ EXCEPTION ~~~~~~~~~
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - .\config\networking.json
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - java.nio.file.Files.newByteChannel(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - java.nio.file.Files.newByteChannel(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - java.nio.file.Files.readAllBytes(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - com.networkprobe.networking.config.NetworkConfiguration.<init>(NetworkConfiguration.java:29)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - com.networkprobe.networking.config.NetworkConfiguration.create(NetworkConfiguration.java:36)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - com.networkprobe.app.NetworkProbeApp.main(NetworkProbeApp.java:48)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - java.lang.reflect.Method.invoke(Unknown Source)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:61)
+[2022-08-27 23:27:49] [main] [com.networkprobe.app.NetworkProbeApp] [ERROR] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - NetworkProbe 1.0
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - CommandLine loaded
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - NetworkSubject (network-side): NetworkSubjectType@CLIENT
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - Registering all broadcast addresses.
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - Loading NetworkSubjectFactory
+[2022-08-27 23:30:03] [main] [com.networkprobe.networking.subject.NetworkSubjectFactory] [INFO ] - Ready.
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - Loading NetworkEnvironment
+[2022-08-27 23:30:03] [main] [com.networkprobe.networking.NetworkEnvironment] [INFO ] - Ready.
+[2022-08-27 23:30:03] [main] [com.networkprobe.app.NetworkProbeApp] [INFO ] - Setting up NetworkSubject wrapper
+[2022-08-27 23:30:03] [main] [com.networkprobe.subject.NetworkClient] [INFO ] - Executing Client
+[2022-08-27 23:30:03] [main] [com.networkprobe.subject.NetworkClient] [INFO ] - Requesting IP address to the network
+[2022-08-27 23:30:03] [main] [com.networkprobe.subject.NetworkClient] [INFO ] - Waiting for the server response [!]
+[2022-08-27 23:30:03] [Thread-0] [com.networkprobe.networking.NetworkPacketSender] [INFO ] - Sending a data packet to 192.168.1.255
+[2022-08-27 23:30:03] [Thread-1] [com.networkprobe.networking.NetworkPacketSender] [INFO ] - Sending a data packet to 172.18.127.255
+[2022-08-27 23:30:03] [main] [com.networkprobe.networking.NetworkEnvironment] [INFO ] - Packet senders cleared.
+[2022-08-27 23:30:03] [main] [com.networkprobe.subject.NetworkClient] [INFO ] - Recebido: 192.168.1.3
+[2022-08-27 23:30:03] [main] [com.networkprobe.subject.NetworkClient] [INFO ] - Atualizando ip do clienteBD para 192.168.1.3
