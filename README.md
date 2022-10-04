@@ -2,7 +2,7 @@
 
 # 📪 Alterdata Config. ClienteBD 2.0
 
-Jultamente com o [network-probe](https://github.com/daviddev16/network-probe) que faz com que o servidor responda uma mensagem vinda da estação e [alterdata-cliente-bd-api](https://github.com/daviddev16/alterdata-clientebd-api) que permite editar as propriedades do ClienteBD no regedit, este clienteBD faz **a configuração automática do IP do servidor na estação**, sem precisar se preocupar com mudanças de IP por DHCP, ou problemas no servidor DNS.
+Jultamente com o [network-probe](https://github.com/daviddev16/network-probe/tree/dev-1.3) que faz com que o servidor responda uma mensagem vinda da estação e [alterdata-cliente-bd-api](https://github.com/daviddev16/alterdata-clientebd-api) que permite editar as propriedades do ClienteBD no regedit, este clienteBD faz **a configuração automática do IP do servidor na estação**, sem precisar se preocupar com mudanças de IP por DHCP, ou problemas no servidor DNS.
 
 <br>
 <p align="center">
